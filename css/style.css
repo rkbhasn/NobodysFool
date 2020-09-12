@@ -1,0 +1,185 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#social-link{
+  background: #2e2e2e;
+  overflow: hidden;
+}
+#social-link ul{
+  margin-bottom: 0;
+}
+#social-link #after-content{
+  display: inline;
+  content: '';
+  height: 15px;
+  width: 1px;
+  display: inline-block;
+  background: #9f9f9f;
+  margin-right: 5px;
+}
+#social-link #after-content:last-child{
+  margin-right: 0;
+}
+#social-link ul li a{
+  color: #9f9f9f;
+  text-decoration: none;
+}
+#social-link ul li:hover a{
+  color: #eae6e6;
+}
+#social-link #social-icon{
+  text-align: right;
+}
+#social-link #social-icon a{
+  text-decoration: none;
+}
+#social-link #social-icon a i{
+  background: #787878;
+  color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  transition: .2s;
+}
+#social-link #social-icon a:hover i{
+  background: #db4a39;
+}
+
+/*Navabar*/
+nav ul li a{
+  color: black;
+}
+nav ul li.active a,
+nav ul li:hover a{
+  color: #9f9f9f;
+  border-bottom: 4px solid #0099ff;
+}
+nav #nav-line{
+  height: 4px;
+  width: 100%;
+  background: #f1f1f1;
+  margin-top: -4px;
+  z-index: -1;
+}
+/*Header Section*/
+#header h2{
+  font-size: 36px;
+  margin-bottom: 0;
+  color: #333333;
+}
+#header p{
+  font-size: 14px;
+  margin-left: 3px;
+}
+#header input[type="search"]{
+  border: none;
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+/*Home Section*/
+#home h2{
+  font-size: 36px;
+  color: #333333;
+}
+#home p{
+  font-size: 16px;
+}
+#home button{
+  font-size: 16px;
+}
+#home img{
+  height: 440px;
+  width: 550px;
+  filter: brightness(50%);
+}
+/*Galary Section*/
+#galary #image-sizing{
+  height: 80px;
+  width: 85px;
+}
+#galary h6{
+  color: #0099ff;
+  font-size: 16px;
+  margin: 8px 0px;
+}
+/*Contact Section*/
+#contact .container .row{
+  background: #e0e0e0;
+  color: #333333;
+  margin-left: 1px;
+}
+#contact .container{
+  position: relative;
+}
+#contact h2{
+  font-size: 36px;
+}
+#contact p{
+  font-size: 18px;
+  margin-bottom: 0;
+}
+#contact button{
+  font-size: 26px;
+  color: #e0e0e0 !important;
+}
+/*Short links*/
+#short-links{
+  background: #1a1a1a;
+  border-top: 2px solid black;
+}
+#short-links h6{
+  color: #fff;
+  font-weight: normal;
+}
+#short-links img{
+  height: 90px;
+  width: 215px;
+  border: 1px solid #333;
+}
+#short-links p{
+ color: #666666;
+ font-size: 12px;
+ margin-bottom: 5px;
+ margin-top: 8px;
+}
+#short-links a{
+  font-size: 12px;
+}
+#short-links ul{
+  list-style-type: none;
+}
+#short-links ul li{
+  margin: 0;
+  padding: 0;
+}
+#short-links ul hr{
+  color: #232323;
+  margin: 4px 0;
+  padding: 0;
+}
+#short-links ul li i{
+  font-size: 8px;
+  color: #989898;
+}
+#short-links h5{
+  font-size: 14px;
+  color: #666666;
+}
+#short-links span{
+  font-size: 10px;
+  display: block;
+  color: #666666;
+}
+#short-links input[type="text"],
+#short-links textarea{
+  background: #232323;
+  border: none;
+}
+/*Footer section*/
+footer{
+  background: #222222;
+}
+footer #text-right{
+  float: right;
+  margin-left: auto;
+}
